@@ -5,14 +5,15 @@ html {
 body {
     height: 100%;
     margin: 0;
+    overflow: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: radial-gradient(circle closest-side,
+    background-image: radial-gradient(circle closest-side,
     #0085CC, #112D58,  #141621);
 }
 
 img {
-    transform: scale(3);
+    transform: scale(2.3);
     position: absolute;
     margin: auto;
     top: 0;
@@ -21,18 +22,36 @@ img {
     left: 0;
     width: 100px;
     height: 100px;
+    background-repeat: no-repeat;
     /* background-position:center; */
 }
 
-.wrapper {
-    position: absolute;
+#wrapper {
+    /* transform: scale(3); */
+    /* position: absolute;
     margin: auto;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     width: 100px;
-    height: 100px;
+    height: 100px; */
+    /* position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px; */
     /* margin: auto;
     text-align: center; */
 }
+
+#footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height:xxxx;
+    }
