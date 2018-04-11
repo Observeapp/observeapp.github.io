@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: radial-gradient(circle closest-side,
+    #0085CC, #112D58,  #141621);
+}
+
+img {
+    transform: scale(3);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    /* background-position:center; */
+}
+
+.wrapper {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    /* margin: auto;
+    text-align: center; */
+}
